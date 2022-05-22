@@ -1,8 +1,14 @@
+:linkcss:
+:stylesdir: https://darshandsoni.com/asciidoctor-skins/css
+:stylesheet: monospace.css
+
 = Nombre del caso de uso
+:title-page: use-case
 :revdate: 2022-05-21
 :revnumber: 1.0
 :revremark: Plantilla para casos de uso
 :version-label!:
+:lang: es
 :toc:
 :toc-title: Tabla de contenidos
 :icons: font
@@ -19,7 +25,9 @@
 == Requerimientos
 
 <<<
+
 == Ayuda
+// tag::ayuda[]
 Distribución del documento y como cumplimentarlo
 ====
 .Cabecera
@@ -36,7 +44,7 @@ Distribución del documento y como cumplimentarlo
 <3> Número de versión
 <4> Breve resumen
 <5> Renderiza la tabla de contenidos del documento
-<6> Presenta iconos en los bloque de notas
+<6> Presenta iconos en los bloques de anotaciones
 
 .Secciones del caso de uso
 ----
@@ -59,6 +67,7 @@ Distribución del documento y como cumplimentarlo
 <8> TODO
 
 ====
+// end::ayuda[]
 
 
 
