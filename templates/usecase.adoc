@@ -1,0 +1,65 @@
+= Nombre del caso de uso
+:revdate: 2022-05-21
+:revnumber: 1.0
+:revremark: Plantilla para casos de uso
+:version-label!:
+:toc:
+:toc-title: Tabla de contenidos
+:icons: font
+
+<<<
+
+== Descripción
+== Actores
+== Precondiciones
+== Post-condiciones
+== Flujo
+== Flujo/s alternativo/s
+== Excepciones
+== Requerimientos
+
+<<<
+== Ayuda
+Distribución del documento y como cumplimentarlo
+====
+.Cabecera
+----
+= Nombre del caso de uso <1>
+:revdate: <2>
+:revnumber: <3>
+:revremark: <4>
+:toc: <5>
+:icons: font <6>
+----
+<1> Nombre del caso de uso
+<2> Fecha de última revisión
+<3> Número de versión
+<4> Breve resumen
+<5> Renderiza la tabla de contenidos del documento
+<6> Presenta iconos en los bloque de notas
+
+.Secciones del caso de uso
+----
+== Descripción <1>
+== Actores <2>
+== Precondiciones <3>
+== Post-condiciones <4>
+== Flujo <5>
+== Flujo/s alternativo/s <6>
+== Excepciones <7>
+== Requerimientos <8>
+----
+<1> TODO
+<2> TODO
+<3> TODO
+<4> TODO
+<5> TODO
+<6> TODO
+<7> TODO
+<8> TODO
+
+====
+
+
+
+
