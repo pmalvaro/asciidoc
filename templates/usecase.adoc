@@ -18,11 +18,11 @@
 == Descripción
 == Actores
 == Precondiciones
-== Post-condiciones
 == Flujo
 == Flujo/s alternativo/s
+== Post-condiciones
 == Excepciones
-== Requerimientos
+== Comentarios
 
 <<<
 
@@ -36,35 +36,32 @@ Distribución del documento y como cumplimentarlo
 :revdate: <2>
 :revnumber: <3>
 :revremark: <4>
-:toc: <5>
-:icons: font <6>
 ----
 <1> Nombre del caso de uso
 <2> Fecha de última revisión
 <3> Número de versión
 <4> Breve resumen
-<5> Renderiza la tabla de contenidos del documento
-<6> Presenta iconos en los bloques de anotaciones
 
 .Secciones del caso de uso
 ----
 == Descripción <1>
 == Actores <2>
 == Precondiciones <3>
-== Post-condiciones <4>
-== Flujo <5>
-== Flujo/s alternativo/s <6>
+== Flujo <4>
+== Flujo/s alternativo/s <5>
+== Post-condiciones <6>
 == Excepciones <7>
-== Requerimientos <8>
+== Comentarios <8>
 ----
-<1> TODO
-<2> TODO
-<3> TODO
-<4> TODO
-<5> TODO
-<6> TODO
-<7> TODO
-<8> TODO
+<1> Corresponde a un texto breve donde se refleje el propósito del caso de uso
+<2> Los nombres de los actores deben ser un sustantivo singular que represente el rol que juegan en el sistema
+<3> Se indican las condiciones necesarias para que se pueda realizar el caso de uso
+<4> Enumerar la secuencia normal de interacciones del caso de uso que se deben cumplir para lograr su objetivo o el mejor escenario posible
+<5> Enumerar los posibles caminos alternativos
+<6> Todos los posibles estados en los que puede finalizar el caso de uso
+<7> Se indica el comportamiento del sistema en caso de que se produzca
+alguna situación inesperada en el sistema
+<8> Información complementaria al caso de uso
 
 ====
 // end::ayuda[]

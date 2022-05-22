@@ -7,12 +7,19 @@
 <meta name="generator" content="Asciidoctor 2.0.17">
 <title>asciidoc templates</title>
 <link rel="stylesheet" href="https://darshandsoni.com/asciidoctor-skins/css/monospace.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="article">
 <div id="header">
 <h1>asciidoc templates</h1>
 <div class="details">
 <span id="revdate">2022-05-22</span>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle">Tabla de contenidos</div>
+<ul class="sectlevel1">
+<li><a href="#_casos_de_uso">Casos de uso</a></li>
+</ul>
 </div>
 </div>
 <div id="content">
@@ -30,9 +37,7 @@
 <pre>= Nombre del caso de uso <i class="conum" data-value="1"></i><b>(1)</b>
 :revdate: <i class="conum" data-value="2"></i><b>(2)</b>
 :revnumber: <i class="conum" data-value="3"></i><b>(3)</b>
-:revremark: <i class="conum" data-value="4"></i><b>(4)</b>
-:toc: <i class="conum" data-value="5"></i><b>(5)</b>
-:icons: font <i class="conum" data-value="6"></i><b>(6)</b></pre>
+:revremark: <i class="conum" data-value="4"></i><b>(4)</b></pre>
 </div>
 </div>
 <div class="colist arabic">
@@ -53,14 +58,6 @@
 <td><i class="conum" data-value="4"></i><b>4</b></td>
 <td>Breve resumen</td>
 </tr>
-<tr>
-<td><i class="conum" data-value="5"></i><b>5</b></td>
-<td>Renderiza la tabla de contenidos del documento</td>
-</tr>
-<tr>
-<td><i class="conum" data-value="6"></i><b>6</b></td>
-<td>Presenta iconos en los bloques de anotaciones</td>
-</tr>
 </table>
 </div>
 <div class="listingblock">
@@ -69,46 +66,47 @@
 <pre>== Descripción <i class="conum" data-value="1"></i><b>(1)</b>
 == Actores <i class="conum" data-value="2"></i><b>(2)</b>
 == Precondiciones <i class="conum" data-value="3"></i><b>(3)</b>
-== Post-condiciones <i class="conum" data-value="4"></i><b>(4)</b>
-== Flujo <i class="conum" data-value="5"></i><b>(5)</b>
-== Flujo/s alternativo/s <i class="conum" data-value="6"></i><b>(6)</b>
+== Flujo <i class="conum" data-value="4"></i><b>(4)</b>
+== Flujo/s alternativo/s <i class="conum" data-value="5"></i><b>(5)</b>
+== Post-condiciones <i class="conum" data-value="6"></i><b>(6)</b>
 == Excepciones <i class="conum" data-value="7"></i><b>(7)</b>
-== Requerimientos <i class="conum" data-value="8"></i><b>(8)</b></pre>
+== Comentarios <i class="conum" data-value="8"></i><b>(8)</b></pre>
 </div>
 </div>
 <div class="colist arabic">
 <table>
 <tr>
 <td><i class="conum" data-value="1"></i><b>1</b></td>
-<td>TODO</td>
+<td>Corresponde a un texto breve donde se refleje el propósito del caso de uso</td>
 </tr>
 <tr>
 <td><i class="conum" data-value="2"></i><b>2</b></td>
-<td>TODO</td>
+<td>Los nombres de los actores deben ser un sustantivo singular que represente el rol que juegan en el sistema</td>
 </tr>
 <tr>
 <td><i class="conum" data-value="3"></i><b>3</b></td>
-<td>TODO</td>
+<td>Se indican las condiciones necesarias para que se pueda realizar el caso de uso</td>
 </tr>
 <tr>
 <td><i class="conum" data-value="4"></i><b>4</b></td>
-<td>TODO</td>
+<td>Enumerar la secuencia normal de interacciones del caso de uso que se deben cumplir para lograr su objetivo o el mejor escenario posible</td>
 </tr>
 <tr>
 <td><i class="conum" data-value="5"></i><b>5</b></td>
-<td>TODO</td>
+<td>Enumerar los posibles caminos alternativos</td>
 </tr>
 <tr>
 <td><i class="conum" data-value="6"></i><b>6</b></td>
-<td>TODO</td>
+<td>Todos los posibles estados en los que puede finalizar el caso de uso</td>
 </tr>
 <tr>
 <td><i class="conum" data-value="7"></i><b>7</b></td>
-<td>TODO</td>
+<td>Se indica el comportamiento del sistema en caso de que se produzca
+alguna situación inesperada en el sistema</td>
 </tr>
 <tr>
 <td><i class="conum" data-value="8"></i><b>8</b></td>
-<td>TODO</td>
+<td>Información complementaria al caso de uso</td>
 </tr>
 </table>
 </div>
@@ -119,7 +117,7 @@
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-05-22 09:33:27 +0200
+Last updated 2022-05-22 09:35:22 +0200
 </div>
 </div>
 </body>
